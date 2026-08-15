@@ -1,7 +1,7 @@
 # pi-zeromem
 
 A [pi coding agent](https://github.com/earendil-works/pi-mono) extension that wires
-the [`zm`](https://github.com/onibaku/zeromem) memory CLI into pi as zero-token,
+the [`zm`](https://github.com/ptaranat/zeromem) memory CLI into pi as zero-token,
 provenance-preserving long-term memory.
 
 Wraps the `zm` binary (Zero-Mem, arXiv 2607.29377): recall/ingest/stats make
@@ -25,7 +25,7 @@ Alternative: list the file in `~/.pi/agent/settings.json`:
 }
 ```
 
-Requires the `zm` binary on `PATH` (install from the [zeromem repo](https://github.com/onibaku/zeromem)):
+Requires the `zm` binary on `PATH` (install from the [zeromem repo](https://github.com/ptaranat/zeromem)):
 
 ```sh
 just build   # produces target/release/zm; put it on PATH
