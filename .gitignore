@@ -1,0 +1,5 @@
+# zeromem SQLite store / local artifacts
+*.db
+*.db-*
+node_modules/
+target/

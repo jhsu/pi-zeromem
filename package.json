@@ -1,0 +1,15 @@
+{
+  "name": "pi-zeromem",
+  "version": "0.1.0",
+  "description": "Zero-token long-term memory for pi coding agent via the zm (zeromem) CLI.",
+  "license": "MIT",
+  "files": ["zeromem.ts"],
+  "pi": {
+    "extensions": ["./zeromem.ts"]
+  },
+  "dependencies": {
+    "@earendil-works/pi-coding-agent": "*",
+    "@earendil-works/pi-agent-core": "*",
+    "typebox": "*"
+  }
+}
